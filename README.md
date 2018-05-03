@@ -2,7 +2,7 @@
 
 [Live (not yet)](https://google.com)
 
-IBM Watson personality insights from Twitter posts rendered through Chart.js data visualization. Ruby on Rails backend and Reactjs frontend.
+IBM Watson personality insights from Twitter posts rendered through Chart.js data visualization. Ruby on Rails backend and React frontend.
 
 * [My Dear Watson Backend](https://github.com/matjack9/my-dear-watson/tree/master/my-dear-watson-backend)
 * [My Dear Watson Frontend](https://github.com/matjack9/my-dear-watson/tree/master/my-dear-watson-frontend)
@@ -27,17 +27,17 @@ IBM Watson personality insights from Twitter posts rendered through Chart.js dat
 * PostgreSQL 10
 * React v16.3.1
 * Notable Gems:
-  * watson-api-client | handling IBM Watson API calls
-  * twitter | handling Twitter API calls
-  * figaro | storing API keys
+  * watson-api-client: handling IBM Watson API calls
+  * twitter: handling Twitter API calls
+  * figaro: storing API keys
   * (testing frameworks)
 * Notable JavaScript Libraries:
-  * axios | handling promises
-  * react-chartjs-2 | charting analyses
-  * uuid | creating unique react keys
-  * semantic-ui-react | styling
-  * prop-types | confirming react prop types in development
-  * jest | unit testing
+  * axios => handling promises
+  * react-chartjs-2 => charting analyses
+  * uuid => creating unique react keys
+  * semantic-ui-react => styling
+  * prop-types => confirming react prop types in development
+  * jest => unit testing
 
 ## Database Relationships
 
@@ -52,20 +52,20 @@ IBM Watson personality insights from Twitter posts rendered through Chart.js dat
 ## Installation
 
 1.  Fork and clone [this repo](https://github.com/matjack9/my-dear-watson)
-2.  Navigate to /my-dear-watson-backend, and complete Backend Setup
-3.  In a separate terminal window, navigate to /my-dear-watson-frontend, and complete Frontend Setup
+2.  Navigate to `/my-dear-watson-backend`, and complete Backend Setup
+3.  In a separate terminal window, navigate to `/my-dear-watson-frontend`, and complete Frontend Setup
 
 ### Backend Setup
 
-After navigating to /my-dear-watson-backend:
+After navigating to `/my-dear-watson-backend`:
 
 1.  Install Gems `bundle install`
 2.  Request API keys from [IBM Watson](https://console.bluemix.net/registration/?target=%2Fdeveloper%2Fwatson%2Fcreate-project%3Fservices%3Dpersonality_insights%26hideTours%3Dtrue&cm_mmc%3DOSocial_Tumblr-_-Watson%2BCore_Watson%2BCore%2B-%2BPlatform-_-WW_WW-_-wdc-ref%26cm_mmc%3DOSocial_Tumblr-_-Watson%2BCore_Watson%2BCore%2B-%2BPlatform-_-WW_WW-_-wdc-ref%26cm_mmca1%3D000000OF%26cm_mmca2%3D10000409)
 3.  Request API keys from [Twitter](https://developer.twitter.com/)
 4.  Store the relevant keys in:
 
-* /app/controllers/api/v1/watson_api_controller.rb
-* /app/controllers/api/v1/twitter_api_controller.rb
+* `/app/controllers/api/v1/watson_api_controller.rb`
+* `/app/controllers/api/v1/twitter_api_controller.rb`
 
 5.  Setup Database `rake db:create` then `rake db:migrate`
 6.  Seed database `rake db:seed`
@@ -73,7 +73,7 @@ After navigating to /my-dear-watson-backend:
 
 ### Frontend Setup
 
-After navigating to /my-dear-watson-frontend:
+After navigating to `/my-dear-watson-frontend`:
 
 1.  Install dependencies `yarn install`
 2.  Start your server `yarn start`
