@@ -2,7 +2,7 @@
 
 [Live (not yet)](https://google.com)
 
-IBM Watson personality insights from twitter posts rendered through Chart.js data visualization. Ruby on Rails backend and Reactjs frontend.
+IBM Watson personality insights from Twitter posts rendered through Chart.js data visualization. Ruby on Rails backend and Reactjs frontend.
 
 * [My Dear Watson Backend](https://github.com/matjack9/my-dear-watson/tree/master/my-dear-watson-backend)
 * [My Dear Watson Frontend](https://github.com/matjack9/my-dear-watson/tree/master/my-dear-watson-frontend)
@@ -15,10 +15,10 @@ IBM Watson personality insights from twitter posts rendered through Chart.js dat
 
 ## How To Use
 
-* Enter a twitter handle to analyze
+* Enter a Twitter handle to analyze
 * Review IBM Watson's scoring of Personality, Needs, Values, and Consumption Preferences for the user
 * Compare the results to the averages of previously searched unique twitter handles
-* As the database of twitter handles grow, the averages refine
+* As the database of Twitter handles grow, the averages refine
 
 ## Tech
 
@@ -41,7 +41,7 @@ IBM Watson personality insights from twitter posts rendered through Chart.js dat
 
 ## Database Relationships
 
-![my-dear-watson-relationships](my-dear-watson-relationships.pdf)
+![my-dear-watson-relationships](my-dear-watson-relationships.png)
 
 ## Prerequisites
 
@@ -51,22 +51,25 @@ IBM Watson personality insights from twitter posts rendered through Chart.js dat
 
 ## Installation
 
-1.  Fork and clone [My Dear Watson](https://github.com/matjack9/my-dear-watson)
-2.  Navigate to my-dear-watson-backend, and complete Backend Setup
-3.  In a separate terminal window, navigate to my-dear-watson-frontend, and complete Frontend Setup
+1.  Fork and clone [this repo](https://github.com/matjack9/my-dear-watson)
+2.  Navigate to /my-dear-watson-backend, and complete Backend Setup
+3.  In a separate terminal window, navigate to /my-dear-watson-frontend, and complete Frontend Setup
 
 ### Backend Setup
 
-After navigating to my-dear-watson-backend, in the root directory:
+After navigating to /my-dear-watson-backend:
 
 1.  Install Gems `bundle install`
-2.  Setup Database `rake db:create` then `rake db:migrate`
-3.  Start your server `rails s`
-    keys...?
+2.  Request API keys from [IBM Watson](https://console.bluemix.net/registration/?target=%2Fdeveloper%2Fwatson%2Fcreate-project%3Fservices%3Dpersonality_insights%26hideTours%3Dtrue&cm_mmc%3DOSocial_Tumblr-_-Watson%2BCore_Watson%2BCore%2B-%2BPlatform-_-WW_WW-_-wdc-ref%26cm_mmc%3DOSocial_Tumblr-_-Watson%2BCore_Watson%2BCore%2B-%2BPlatform-_-WW_WW-_-wdc-ref%26cm_mmca1%3D000000OF%26cm_mmca2%3D10000409)
+3.  Request API keys from [Twitter](https://developer.twitter.com/)
+4.  Store the relevant keys in /app/controllers/api/v1/watson_api_controller.rb and /app/controllers/api/v1/twitter_api_controller.rb
+5.  Setup Database `rake db:create` then `rake db:migrate`
+6.  Seed database `rake db:seed`
+7.  Start your server `rails s`
 
 ### Frontend Setup
 
-After navigating to my-dear-watson-frontend, in the root directory:
+After navigating to /my-dear-watson-frontend:
 
 1.  Install dependencies `yarn install`
 2.  Start your server `yarn start`
@@ -87,7 +90,9 @@ TBD
 ## Future Improvements
 
 * Move away from alert error messages
-* Twitter handles saved in the database as same casing on Twitter
-* Implement Twitter user profile photos
-* Have Chart.js always scale from 0-100
+* Twitter handles saved in the database in same casing as on Twitter
+* Implement Twitter profile photos
+* Have charts always scale from 0-100
 * Ability to compare analyses between two users and not only between a user and averages
+
+© [Matt Jackson](https://www.linkedin.com/in/matjack/)
