@@ -62,7 +62,11 @@ After navigating to /my-dear-watson-backend:
 1.  Install Gems `bundle install`
 2.  Request API keys from [IBM Watson](https://console.bluemix.net/registration/?target=%2Fdeveloper%2Fwatson%2Fcreate-project%3Fservices%3Dpersonality_insights%26hideTours%3Dtrue&cm_mmc%3DOSocial_Tumblr-_-Watson%2BCore_Watson%2BCore%2B-%2BPlatform-_-WW_WW-_-wdc-ref%26cm_mmc%3DOSocial_Tumblr-_-Watson%2BCore_Watson%2BCore%2B-%2BPlatform-_-WW_WW-_-wdc-ref%26cm_mmca1%3D000000OF%26cm_mmca2%3D10000409)
 3.  Request API keys from [Twitter](https://developer.twitter.com/)
-4.  Store the relevant keys in /app/controllers/api/v1/watson_api_controller.rb and /app/controllers/api/v1/twitter_api_controller.rb
+4.  Store the relevant keys in:
+
+* /app/controllers/api/v1/watson_api_controller.rb
+* /app/controllers/api/v1/twitter_api_controller.rb
+
 5.  Setup Database `rake db:create` then `rake db:migrate`
 6.  Seed database `rake db:seed`
 7.  Start your server `rails s`
@@ -82,11 +86,6 @@ Navigate to the web address of your Node server, e.g. [http://localhost:3001](ht
 
 TBD
 
-## Credits
-
-* [IBM Watson Personality Insights](https://www.ibm.com/watson/services/personality-insights/)
-* [Twitter](https://twitter.com/)
-
 ## Future Improvements
 
 * Move away from alert error messages
@@ -94,5 +93,10 @@ TBD
 * Implement Twitter profile photos
 * Have charts always scale from 0-100
 * Ability to compare analyses between two users and not only between a user and averages
+
+## Credits
+
+* [IBM Watson Personality Insights](https://www.ibm.com/watson/services/personality-insights/)
+* [Twitter](https://twitter.com/)
 
 © [Matt Jackson](https://www.linkedin.com/in/matjack/)
