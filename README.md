@@ -1,13 +1,13 @@
 # My Dear Watson
 
-[Live (not yet)](https://google.com)
+[Live!](https://matjack9.github.io/my-dear-watson-frontend/)
 
 IBM Watson personality insights from Twitter posts rendered through Chart.js data visualization. Ruby on Rails backend and React frontend.
 
-* [My Dear Watson Backend](https://github.com/matjack9/my-dear-watson/tree/master/my-dear-watson-backend)
-* [My Dear Watson Frontend](https://github.com/matjack9/my-dear-watson/tree/master/my-dear-watson-frontend)
+* [My Dear Watson Backend](https://github.com/matjack9/my-dear-watson-backend)
+* [My Dear Watson Frontend](https://github.com/matjack9/my-dear-watson-frontend)
 
-![my-dear-watson-screenshot](my-dear-watson-screenshot.png)
+![my-dear-watson-screenshot](https://github.com/matjack9/my-dear-watson/blob/master/my-dear-watson-screenshot.png)
 
 ## Demo
 
@@ -39,7 +39,7 @@ IBM Watson personality insights from Twitter posts rendered through Chart.js dat
 
 ## Database Relationships
 
-![my-dear-watson-relationships](my-dear-watson-relationships.png)
+![my-dear-watson-relationships](https://github.com/matjack9/my-dear-watson/blob/master/my-dear-watson-relationships.png)
 
 ## Prerequisites
 
