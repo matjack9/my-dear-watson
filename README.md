@@ -32,12 +32,12 @@ IBM Watson personality insights from Twitter posts rendered through Chart.js dat
   * figaro: storing API keys
   * (testing frameworks)
 * Notable JavaScript Libraries:
-  * axios => handling promises
-  * react-chartjs-2 => charting analyses
-  * uuid => creating unique react keys
-  * semantic-ui-react => styling
-  * prop-types => confirming react prop types in development
-  * jest => unit testing
+  * axios: handling promises
+  * react-chartjs-2: charting analyses
+  * uuid: creating unique react keys
+  * semantic-ui-react: styling
+  * prop-types: confirming react prop types in development
+  * jest: unit testing
 
 ## Database Relationships
 
@@ -51,7 +51,7 @@ IBM Watson personality insights from Twitter posts rendered through Chart.js dat
 
 ## Installation
 
-1.  Fork and clone [this repo](https://github.com/matjack9/my-dear-watson)
+1.  Fork and clone [My Dear Watson](https://github.com/matjack9/my-dear-watson)
 2.  Navigate to `/my-dear-watson-backend`, and complete Backend Setup
 3.  In a separate terminal window, navigate to `/my-dear-watson-frontend`, and complete Frontend Setup
 
