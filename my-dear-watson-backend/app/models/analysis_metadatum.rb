@@ -1,0 +1,2 @@
+class AnalysisMetadatum < ApplicationRecord
+end

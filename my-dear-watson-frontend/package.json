@@ -1,0 +1,26 @@
+{
+	"name": "my-dear-watson-frontend",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"axios": "^0.18.0",
+		"chart.js": "^2.7.2",
+		"prop-types": "^15.6.1",
+		"react": "^16.3.1",
+		"react-chartjs-2": "^2.7.0",
+		"react-dom": "^16.3.1",
+		"react-router-dom": "^4.2.2",
+		"react-scripts": "1.1.4",
+		"semantic-ui-react": "^0.79.1",
+		"uuid": "^3.2.1"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "jest",
+		"eject": "react-scripts eject"
+	},
+	"devDependencies": {
+		"jest": "^22.4.3"
+	}
+}
