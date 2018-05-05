@@ -30,14 +30,12 @@ IBM Watson personality insights from Twitter posts rendered through Chart.js dat
   * watson-api-client: handling IBM Watson API calls
   * twitter: handling Twitter API calls
   * figaro: storing API keys
-  * (testing frameworks)
 * Notable JavaScript Libraries:
   * axios: handling promises
   * react-chartjs-2: charting analyses
-  * uuid: creating unique react keys
+  * uuid: creating unique React keys
   * semantic-ui-react: styling
-  * prop-types: confirming react prop types in development
-  * jest: unit testing
+  * prop-types: testing React prop types
 
 ## Database Relationships
 
@@ -51,7 +49,7 @@ IBM Watson personality insights from Twitter posts rendered through Chart.js dat
 
 ## Installation
 
-1.  Fork and clone [My Dear Watson](https://github.com/matjack9/my-dear-watson)
+1.  Clone [My Dear Watson](https://github.com/matjack9/my-dear-watson)
 2.  Navigate to `/my-dear-watson-backend`, and complete Backend Setup
 3.  In a separate terminal window, navigate to `/my-dear-watson-frontend`, and complete Frontend Setup
 
@@ -59,7 +57,7 @@ IBM Watson personality insights from Twitter posts rendered through Chart.js dat
 
 After navigating to `/my-dear-watson-backend`:
 
-1.  Install Gems `bundle install`
+1.  Install gems `bundle install`
 2.  Request API keys from [IBM Watson](https://console.bluemix.net/registration/?target=%2Fdeveloper%2Fwatson%2Fcreate-project%3Fservices%3Dpersonality_insights%26hideTours%3Dtrue&cm_mmc%3DOSocial_Tumblr-_-Watson%2BCore_Watson%2BCore%2B-%2BPlatform-_-WW_WW-_-wdc-ref%26cm_mmc%3DOSocial_Tumblr-_-Watson%2BCore_Watson%2BCore%2B-%2BPlatform-_-WW_WW-_-wdc-ref%26cm_mmca1%3D000000OF%26cm_mmca2%3D10000409)
 3.  Request API keys from [Twitter](https://developer.twitter.com/)
 4.  Store the relevant keys in:
@@ -67,7 +65,7 @@ After navigating to `/my-dear-watson-backend`:
 * `/app/controllers/api/v1/watson_api_controller.rb`
 * `/app/controllers/api/v1/twitter_api_controller.rb`
 
-5.  Setup Database `rake db:create` then `rake db:migrate`
+5.  Setup database `rake db:create` then `rake db:migrate`
 6.  Seed database `rake db:seed`
 7.  Start your server `rails s`
 
@@ -82,17 +80,13 @@ After navigating to `/my-dear-watson-frontend`:
 
 Navigate to the web address of your Node server, e.g. [http://localhost:3001](http://localhost:3001)
 
-## Tests
-
-TBD
-
 ## Future Improvements
 
 * Move away from alert error messages
-* Twitter handles saved in the database in same casing as on Twitter
+* Save Twitter handles in the database in same casing as on Twitter
 * Implement Twitter profile photos
-* Have charts always scale from 0-100
-* Ability to compare analyses between two users and not only between a user and averages
+* Have charts always scale 0-100
+* Develop ability to compare analyses between two twitter handles directly
 
 ## Credits
 
