@@ -47,7 +47,7 @@ IBM Watson Personality Insights returns a large amount of data with each API cal
 
 ### Cached Averages
 
-The backend API renders not only the analysis of one Twitter handle, but also the averages of all Twitter handles in the database. In order to minimize the database queries, there is an analysis_metadata table storing the analysis averages. Each time an analysis saves to the database, a callback updates the analysis_metadata averages thereby caching the average scores.
+The backend API renders not only the analysis of one Twitter handle, but also the averages of all Twitter handles in the database. In order to minimize database queries, there is an analysis_metadata table storing the analysis averages. Each time an analysis saves to the database, a callback updates the analysis_metadata averages thereby caching the average scores. A request can simply query the averages on this table as opposed to demanding ActiveRecord calculate them all in that instant.
 
 `app/models/value.rb`
 
@@ -84,7 +84,7 @@ end
 
 ### Dynamic Frontend Rendering
 
-With all four analysis types each rendering on a Chart.js radar chart, the Analysis container passes all of the score types as props to one abstract chart component `src/components/analysisChart.js`. The abstract code is more effective and easier to maintain even while preserving readability.
+With all four analysis types each rendering on a Chart.js radar chart, the Analysis container passes all of the score types as props to one abstract chart component `src/components/analysisChart.js`. The abstract code is more effective and easier to maintain while still preserving readability.
 
 `src/containers/analysis.js`
 
