@@ -29,7 +29,7 @@ IBM Watson personality insights from Twitter posts rendered through Chart.js dat
 * Notable Ruby Gems:
   * watson-api-client: handling IBM Watson API calls
   * twitter: handling Twitter API calls
-  * figaro: storing API keys
+  * figaro: storing secure keys
 * Notable JavaScript Libraries:
   * axios: handling promises
   * react-chartjs-2: charting analyses
@@ -43,7 +43,7 @@ IBM Watson personality insights from Twitter posts rendered through Chart.js dat
 
 ## Code
 
-IBM Watson Personality Insights returns a large amount of data with each API call making backend organization critical. See below for code snippets reflecting methods to persist and render data optimally for the frontend's requests.
+IBM Watson Personality Insights returns a large amount of data with each API call making backend organization critical. The code snippets below show some methods used to optimally persist and render data for the frontend.
 
 ### Cached Averages
 
