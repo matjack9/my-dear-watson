@@ -11,7 +11,7 @@ IBM Watson personality insights from Twitter posts rendered through Chart.js dat
 
 ## Demo
 
-[![My Dear Watson Demo (not yet)](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+[![My Dear Watson Demo](http://img.youtube.com/vi/GuJkazq79xg/0.jpg)](https://youtu.be/GuJkazq79xg)
 
 ## How To Use
 
@@ -187,4 +187,4 @@ Navigate to the web address of your Node server, e.g. [http://localhost:3001](ht
 * [IBM Watson Personality Insights](https://www.ibm.com/watson/services/personality-insights/)
 * [Twitter](https://twitter.com/)
 
-© [Matt Jackson](https://www.linkedin.com/in/matjack/)
+MIT © [Matt Jackson](https://www.linkedin.com/in/matjack/)
