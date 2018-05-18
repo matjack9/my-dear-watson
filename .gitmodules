@@ -1,0 +1,6 @@
+[submodule "my-dear-watson-backend"]
+	path = my-dear-watson-backend
+	url = https://github.com/matjack9/my-dear-watson-backend
+[submodule "my-dear-watson-frontend"]
+	path = my-dear-watson-frontend
+	url = https://github.com/matjack9/my-dear-watson-frontend
