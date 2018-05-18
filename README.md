@@ -143,7 +143,7 @@ AnalysisChart.propTypes = {
 
 ## Installation
 
-1.  Clone [My Dear Watson](https://github.com/matjack9/my-dear-watson)
+1.  `git clone --recursive https://github.com/matjack9/my-dear-watson` to clone [My Dear Watson](https://github.com/matjack9/my-dear-watson) and its submodules
 2.  Navigate to `/my-dear-watson-backend`, and complete Backend Setup
 3.  In a separate terminal window, navigate to `/my-dear-watson-frontend`, and complete Frontend Setup
 
